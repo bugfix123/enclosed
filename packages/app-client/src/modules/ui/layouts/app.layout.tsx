@@ -210,7 +210,7 @@ export const Footer: Component = () => {
   const { t } = useI18n();
 
   return (
-    <div class="bg-surface border-t border-border py-6 px-6 text-center text-muted-foreground flex flex-col sm:flex-row items-center justify-center gap-1">
+    <div class="bg-surface border-t border-border py-6 px-6 text-center text-muted-foreground flex flex-col sm:flex-row items-center justify-center gap-1" style="display: none;">
       <div>
         {t('footer.crafted-by')}
         {' '}
