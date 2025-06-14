@@ -3,7 +3,7 @@ name: CD - Production
 on:
   push:
     branches:
-      - main
+      - main1
 
 jobs:
   publish-app-prod:
