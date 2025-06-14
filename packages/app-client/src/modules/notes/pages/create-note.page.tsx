@@ -237,7 +237,7 @@ export const CreateNotePage: Component = () => {
           <TextFieldRoot class="w-full ">
             <TextArea
               placeholder={t('create.settings.placeholder')}
-              class="flex-1 p-4 min-h-300px sm:min-h-700px"
+              class="flex-1 p-4 min-h-300px sm:min-h-500px"
               value={getContent()}
               onInput={e => updateContent(e.currentTarget.value)}
               data-test-id="note-content"
