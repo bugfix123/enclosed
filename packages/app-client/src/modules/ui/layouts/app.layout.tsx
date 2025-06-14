@@ -167,25 +167,25 @@ export const Navbar: Component = () => {
               </DropdownMenuSub>
 
               {/* Default items */}
-              <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href={buildDocUrl({ path: '/' })}>
+              {/* <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href={buildDocUrl({ path: '/' })}>
                 <div class="i-tabler-file-text text-lg"></div>
                 {t('navbar.settings.documentation')}
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
 
-              <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href={buildDocUrl({ path: '/integrations/cli' })}>
+              {/* <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href={buildDocUrl({ path: '/integrations/cli' })}>
                 <div class="i-tabler-terminal text-lg"></div>
                 {t('navbar.settings.cli')}
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
 
-              <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href="https://github.com/CorentinTh/enclosed/issues/new/choose" rel="noopener noreferrer">
+              {/* <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href="https://github.com/CorentinTh/enclosed/issues/new/choose" rel="noopener noreferrer">
                 <div class="i-tabler-bug text-lg"></div>
                 {t('navbar.settings.report-bug')}
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
 
-              <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href="https://buymeacoffee.com/cthmsst" rel="noopener noreferrer">
+              {/* <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href="https://buymeacoffee.com/cthmsst" rel="noopener noreferrer">
                 <div class="i-tabler-pig-money text-lg"></div>
                 {t('navbar.settings.support')}
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
 
               {config.isAuthenticationRequired && authStore.getIsAuthenticated() && (
                 <>
