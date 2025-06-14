@@ -139,10 +139,10 @@ export const Navbar: Component = () => {
             <DropdownMenuContent class="w-46">
 
               {/* Mobile only items */}
-              <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer md:hidden" target="_blank" href="https://github.com/CorentinTh/enclosed" rel="noopener noreferrer">
+              {/* <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer md:hidden" target="_blank" href="https://github.com/CorentinTh/enclosed" rel="noopener noreferrer">
                 <div class="i-tabler-brand-github text-lg"></div>
                 {t('navbar.github')}
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
 
               <DropdownMenuSub>
                 <DropdownMenuSubTrigger as="a" class="flex items-center gap-2 md:hidden" aria-label={t('navbar.change-theme')}>
@@ -182,10 +182,10 @@ export const Navbar: Component = () => {
                 {t('navbar.settings.report-bug')}
               </DropdownMenuItem> */}
 
-              {/* <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href="https://buymeacoffee.com/cthmsst" rel="noopener noreferrer">
+              <DropdownMenuItem as="a" class="flex items-center gap-2 cursor-pointer" target="_blank" href="https://github.com" rel="noopener noreferrer">
                 <div class="i-tabler-pig-money text-lg"></div>
                 {t('navbar.settings.support')}
-              </DropdownMenuItem> */}
+              </DropdownMenuItem>
 
               {config.isAuthenticationRequired && authStore.getIsAuthenticated() && (
                 <>
